@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>List Page</title>
+</head>
+<body>
+    <ul  id="123">
+        <li><a href="../index.html">Go to index page</a></li>
+        <li><a href="../table/index.html">Go to table </a></li>
+        <li><a href="../image/index.html">Go to image page </a></li>
+        <li><a href="../form/index.html">Go to form</a></li>
+        <li><a href="../text/index.html">Go to Text page</a></li>
+    </ul>
+    <h1> There are 3 types of list in html:</h1>
+    <ol>
+        <li>
+            <dl>
+                <dt>Ordered List</dt>
+                <dd>A list where items are displayed in a specific order using numbers or letters.</dd>
+            </dl>
+        </li>
+         <li>
+            <dl>
+                <dt>Unordered List</dt>
+                <dd>A list where items are displayed with bullet points, without any order.</dd>
+            </dl>
+        </li>
+        </li>
+         <li>
+            <dl>
+                <dt>Definition List</dt>
+                <dd>A list used to define terms with their definition or details.</dd>
+            </dl>
+        </li>
+    </ol>
+    <br><hr><br>
+    <h2>1. Ordered List Example:</h2>
+    <p><b>Fruit List</b></p>
+    <ol>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Grapes</li>
+    </ol>
+    <p><b>Note:</b> In HTML, we can change the numbering style of an Ordered List by using the type attribute, Example:</p>
+    <p>Types of numbering:</p>
+    <ol type="A">
+        <li> type="1" → Default numbering (1, 2, 3, 4 …)</li>
+        <li>type="A" → Uppercase letters (A, B, C, D …)</li>
+        <li>type="a" → Lowercase letters (a, b, c, d …)</li>
+        <li>type="I" → Uppercase Roman numbers (I, II, III, IV …)</li>
+        <li>type="i" → Lowercase Roman numbers (i, ii, iii, iv …).</li>
+    </ol>
+    <br><hr><br>
+    <h2>2. Unordered List Example:</h2>
+    <p><b>Vegetable List</b></p>
+    <ul>
+      <li>Potato</li>
+      <li>Tomato</li>
+      <li>Carrot</li>
+      <li>Onion</li>
+      <li>Spinach</li>
+    </ul>
+    <p><b>Note:</b> In HTML, The type attribute changes the bullet style of the list items. It has 3 main values, Example:</p>
+    <ul type="square">
+        <li> type="circle" → Hollow circle (○) </li>
+        <li> type="square" → Solid square (■).</li>
+    </ul>
+
+
+    <br><hr><br>
+
+
+    <h2>3. Definition List Example:</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>- HyperText Markup Language</dd>
+    
+        <dt>CSS</dt>
+        <dd>- Cascading Style Sheets</dd>
+    
+        <dt>JavaScript</dt>
+        <dd>- A programming language used to make web pages interactive</dd>
+    </dl>
+    <p><b>Note:</b> We can make definition list with numbers by using definition list in order list or unorder list, Example:</p>
+    <ol>
+        <li>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language.</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets.</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>JavaScript</dt>
+                <dd>A programming language used to make web pages interactive.</dd>
+            </dl>
+        </li>
+    </ol>
+
+
+    <br><hr><br>
+
+    <h2>Nested List:</h2>
+    <p>You can put a second list inside an li element to create a sub list or nested list, Example:</p>
+    <ol>
+        <li> Five Vegetables Name:
+            <ul>
+                <li>Potato</li>
+                <li>Tomato</li>
+                <li>Carrot</li>
+                <li>Onion</li>
+                <li>Spinach</li>
+            </ul>
+        </li>
+        <li> 
+            Five Fruits Name:
+    <ol>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <li>Grapes</li>
+    </ol>
+        </li>
+    </ol>
+    <p><b>Note:</b>You can notice that ol can be used under ul and ul can be used under ol.</p>
+    <a href="#123">Go to top</a>
+
+</body>
+</html>

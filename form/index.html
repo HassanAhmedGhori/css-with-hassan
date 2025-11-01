@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Form Page</title>
+</head>
+<body>
+    <ul  id="123">
+        <li><a href="../index.html">Go to index page</a></li>
+        <li><a href="../text/index.html">Go to text page </a></li>
+        <li><a href="../image/index.html">Go to image page </a></li>
+        <li><a href="../table/index.html">Go to table</a></li>
+        <li><a href="../list/index.html">Go to list page</a></li>
+    </ul>
+    <hr><br>
+    <h1>SMIT Form For Students</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <p>Your Name: <input type="text" required name="Your Name" size="30" placeholder="Enter Your Name Here"> </p>
+        <p>Your Password: <input type="password" name="Password" size="27" placeholder="Enter Your Password Here"></p>
+         <p>Your CNIC: <input type="text" name="Your ID" size="30" maxlength="6" placeholder="Enter your ID Here"></p>
+        <p>Your Contact: <input type="text" name="Contact" maxlength="11" size="28" placeholder="Enter Phone Number Here"></p>
+        <p>Your Email: <input type="email" name="Email" size="30" placeholder="Enter Email Here"></p>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Your Skills</legend>
+            <p>Tell Us Your Skills:</p>
+            <input type="checkbox" name="Skills" value="Ms Office" id="D1"> <label for="D1"> Ms Office </label>
+            <input type="checkbox" name="Skills" value="CIT" id="D2"> <label for="D2"> CIT </label>
+            <input type="checkbox" name="Skills" value="DIT" id="D3"> <label for="D3"> DIT  </label>
+            <input type="checkbox" name="Skills" value="English Speaking" id="D4"> <label for="D4">English Speaking</label>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Your Province And City</legend>
+            <p>Select Your Province And City:</p>
+            <select name="Province_City" multiple>
+                <option value="Sindh">Sindh</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Panjab">Panjab</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Balochistan">Balochistan</option>
+                <option value="Gawader">Gawader</option>
+            </select>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Our Courses</legend>
+            <p>Select Your Course:</p>
+            <input type="radio" name="Course" value="Web Development" id="A1"> <label for="A1"> Web Development</label>
+            <input type="radio" name="Course" value="AI and Data Science" id="A2"><label for="A2">AI and Data Science</label>
+            <input type="radio" name="Course" value="Graphic Designing" id="A3"> <label for="A3"> Graphic Designing</label>
+            <input type="radio" name="Course" value="IOS Development" id="A4"><label for="A4">IOS Development</label>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Class Timings</legend>
+            <p>Select Your Class Time:</p>
+            <input type="radio" name="Class Time" value="09:00AM To 11:00AM" id="B1"> <label for="B1"> 09:00AM--11:00AM</label>
+            <input type="radio" name="Class Time" value="12:00PM To 02:00PM" id="B2"><label for="B2">12:00PM--02:00PM</label>
+            <input type="radio" name="Class Time" value="04:00PM To 06:00PM" id="B3"> <label for="B3"> 04:00PM--06:00PM </label>
+            <input type="radio" name="Class Time" value="06:00PM To 08:00PM" id="B4"><label for="B4">06:00PM--08:00PM</label>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Class Days</legend>
+            <p>Select Your Class Days:</p>
+            <input type="radio" name="Class Days" value="Friday-Sunday" id="C1"> <label for="C1">Friday-Sunday</label>
+            <input type="radio" name="Class Days" value="Tuesday-Thursday-Saturday" id="C2"> <label for="C2">Tuesday-Thursday-Saturday</label>
+            <input type="radio" name="Class Days" value="Monday-Wednesday-Friday" id="C3"> <label for="C3"> Monday-Wednesday-Friday </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend> Your Qualification</legend>
+            <P>Select Your Last Degree</P>
+            <select name="Last Degree">
+                <option value="">Select Degree</option>
+                <option value="Middle">Middle</option>
+                <option value="Metric">Metric</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Graduation">Graduation</option>
+            </select>
+        </fieldset>
+        <br>
+        <p>Why did you choose us? <br> <textarea name="Comment" cols="30" rows="5">Write here..</textarea></p>
+        <p>Upload Your Resume: <br> <input type="file"></p> <br>
+        <p><input type="submit"></p>
+    </form>
+</body>
+</html>
